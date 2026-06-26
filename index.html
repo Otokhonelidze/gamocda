@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Document</title>
+    <title>Download Exam</title>
 
     <style>
         body {
@@ -24,7 +24,9 @@
             font-size: 18px;
             border-radius: 8px;
             cursor: pointer;
-            transition: background 0.2s;
+            transition: 0.2s;
+            text-decoration: none;
+            display: inline-block;
         }
 
         .download-btn:hover {
@@ -32,12 +34,11 @@
         }
     </style>
 </head>
+
 <body>
 
-<a href="documents/MyDocument.docx" download>
-    <button class="download-btn">
-        Download Document
-    </button>
+<a class="download-btn" href="documents/exam.zip" download>
+    Download
 </a>
 
 </body>
